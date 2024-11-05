@@ -1,6 +1,6 @@
 {
     "name": "Delete Elements From Websites",
-    "version": "0.1",
+    "version": "1.0.1",
     "description": "This tool will remove certain elements from provided websites.",
     "manifest_version": 3,
     "icons": {
