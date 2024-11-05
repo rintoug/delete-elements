@@ -1,0 +1,16 @@
+{
+    "name": "Delete Elements From Websites",
+    "version": "0.1",
+    "description": "This tool will remove certain elements from provided websites.",
+    "manifest_version": 3,
+    "icons": {
+      "128": "128.png"
+    },
+    "content_scripts": [
+      {
+        "css": ["highlighter.css"],
+        "js": ["axios.min.js","jquery-3.6.0.min.js","highlighter.js"],
+        "matches": ["https://*.reddit.com/*"]
+      }
+    ]
+  }
