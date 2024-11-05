@@ -10,7 +10,7 @@
       {
         "css": ["highlighter.css"],
         "js": ["axios.min.js","jquery-3.6.0.min.js","highlighter.js"],
-        "matches": ["https://*.reddit.com/*"]
+        "matches": ["https://*.reddit.com/*","https://*.youtube.com/*"]
       }
     ]
   }
